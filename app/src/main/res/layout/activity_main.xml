@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:scaleType="centerCrop"
+        />
+
+
+    <TextView
+        android:text="Udacity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/upaddingLeft"
+        android:layout_marginTop="@dimen/umarginTop"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/textSize"
+        android:background="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="2465 Latham St Mountain View, CA 94043"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/omarginLeft"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/textSize"
+        />
+
+    <TextView
+        android:text="650-555-5555"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/omarginLeft"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/textSize"
+        />
+</LinearLayout>
